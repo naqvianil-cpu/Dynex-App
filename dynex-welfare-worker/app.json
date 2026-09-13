@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "DYNEX Worker Welfare",
+    "slug": "dynex-worker-welfare",
+    "scheme": "dynexworkerwelfare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dynexarabia.workerwelfare",
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification"]
+      }
+    },
+    "android": {
+      "package": "com.dynexarabia.workerwelfare",
+      "adaptiveIcon": {
+        "backgroundColor": "#00033A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["NOTIFICATIONS", "CAMERA", "READ_MEDIA_IMAGES"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#00033A"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "DYNEX Worker Welfare uses your photos to attach evidence to a grievance you submit.",
+          "cameraPermission": "DYNEX Worker Welfare uses your camera to attach evidence photos to a grievance you submit."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/dynex-wordmark-white.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#00033A"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
