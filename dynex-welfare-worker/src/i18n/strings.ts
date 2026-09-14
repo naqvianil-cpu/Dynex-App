@@ -55,6 +55,29 @@ export interface Strings {
     reportIssue: string;
     refreshHint: string;
   };
+  dashboard: {
+    title: string;
+    greeting: string;
+    overview: string;
+    totalCases: string;
+    openCases: string;
+    resolvedCases: string;
+    recentCases: string;
+    viewAll: string;
+    colRef: string;
+    colCategory: string;
+    colStatus: string;
+    colDate: string;
+    reportIssue: string;
+    emptyState: string;
+    feedbackTitle: string;
+    feedbackQuestion: string;
+    feedbackWasClosedOn: string;
+    moodVeryHappy: string;
+    moodHappy: string;
+    moodOk: string;
+    moodSad: string;
+  };
   submit: {
     title: string;
     subtitle: string;
@@ -98,6 +121,7 @@ export interface Strings {
     uploading: string;
     uploadError: string;
     noAttachments: string;
+    submitHint: string;
   };
   settings: {
     title: string;
@@ -191,6 +215,29 @@ export const en: Strings = {
     reportIssue: 'Report an issue',
     refreshHint: 'Pull down to refresh.',
   },
+  dashboard: {
+    title: 'Dashboard',
+    greeting: 'Welcome back',
+    overview: 'Overview',
+    totalCases: 'Total cases',
+    openCases: 'Open',
+    resolvedCases: 'Resolved',
+    recentCases: 'Recent cases',
+    viewAll: 'View all',
+    colRef: 'Reference',
+    colCategory: 'Category',
+    colStatus: 'Status',
+    colDate: 'Date',
+    reportIssue: 'Report an issue',
+    emptyState: 'You haven\'t reported anything yet.',
+    feedbackTitle: 'Feedback',
+    feedbackQuestion: 'How was your experience?',
+    feedbackWasClosedOn: 'was closed on',
+    moodVeryHappy: 'Very Happy',
+    moodHappy: 'Happy',
+    moodOk: 'Just Fine',
+    moodSad: 'Sad',
+  },
   submit: {
     title: 'Report an issue',
     subtitle: 'Your Welfare Officer will see this in English, whatever language you write in.',
@@ -234,6 +281,7 @@ export const en: Strings = {
     uploading: 'Uploading…',
     uploadError: 'Could not upload photo. Please try again.',
     noAttachments: 'No photos added yet.',
+    submitHint: 'Optional — add photos to help your Welfare Officer understand the issue.',
   },
   settings: {
     title: 'Settings',
@@ -327,6 +375,29 @@ export const ur: Strings = {
     reportIssue: 'مسئلہ رپورٹ کریں',
     refreshHint: 'تازہ کرنے کے لیے نیچے کھینچیں۔',
   },
+  dashboard: {
+    title: 'ڈیش بورڈ',
+    greeting: 'خوش آمدید',
+    overview: 'مجموعی جائزہ',
+    totalCases: 'کل کیسز',
+    openCases: 'جاری',
+    resolvedCases: 'حل شدہ',
+    recentCases: 'حالیہ کیسز',
+    viewAll: 'سب دیکھیں',
+    colRef: 'حوالہ نمبر',
+    colCategory: 'زمرہ',
+    colStatus: 'صورتحال',
+    colDate: 'تاریخ',
+    reportIssue: 'مسئلہ رپورٹ کریں',
+    emptyState: 'آپ نے ابھی تک کوئی شکایت درج نہیں کی۔',
+    feedbackTitle: 'رائے',
+    feedbackQuestion: 'آپ کا تجربہ کیسا رہا؟',
+    feedbackWasClosedOn: 'کو بند کیا گیا',
+    moodVeryHappy: 'بہت خوش',
+    moodHappy: 'خوش',
+    moodOk: 'ٹھیک ٹھاک',
+    moodSad: 'ناخوش',
+  },
   submit: {
     title: 'مسئلہ رپورٹ کریں',
     subtitle: 'آپ جو بھی زبان میں لکھیں، آپ کا ویلفیئر آفیسر اسے انگریزی میں دیکھے گا۔',
@@ -370,6 +441,7 @@ export const ur: Strings = {
     uploading: 'اپ لوڈ ہو رہا ہے…',
     uploadError: 'تصویر اپ لوڈ نہیں ہو سکی۔ دوبارہ کوشش کریں۔',
     noAttachments: 'ابھی تک کوئی تصویر شامل نہیں کی گئی۔',
+    submitHint: 'اختیاری — اپنے ویلفیئر آفیسر کو مسئلہ سمجھنے میں مدد کے لیے تصاویر شامل کریں۔',
   },
   settings: {
     title: 'سیٹنگز',
@@ -463,6 +535,29 @@ export const ar: Strings = {
     reportIssue: 'الإبلاغ عن مشكلة',
     refreshHint: 'اسحب للأسفل للتحديث.',
   },
+  dashboard: {
+    title: 'لوحة المعلومات',
+    greeting: 'مرحبًا بعودتك',
+    overview: 'نظرة عامة',
+    totalCases: 'إجمالي الحالات',
+    openCases: 'قيد المعالجة',
+    resolvedCases: 'تم الحل',
+    recentCases: 'الحالات الأخيرة',
+    viewAll: 'عرض الكل',
+    colRef: 'الرقم المرجعي',
+    colCategory: 'الفئة',
+    colStatus: 'الحالة',
+    colDate: 'التاريخ',
+    reportIssue: 'الإبلاغ عن مشكلة',
+    emptyState: 'لم تقم بالإبلاغ عن أي شيء بعد.',
+    feedbackTitle: 'الملاحظات',
+    feedbackQuestion: 'كيف كانت تجربتك؟',
+    feedbackWasClosedOn: 'أُغلقت في',
+    moodVeryHappy: 'سعيد جدًا',
+    moodHappy: 'سعيد',
+    moodOk: 'عادي',
+    moodSad: 'غير راضٍ',
+  },
   submit: {
     title: 'الإبلاغ عن مشكلة',
     subtitle: 'سيرى مسؤول الرعاية هذا باللغة الإنجليزية، أياً كانت اللغة التي تكتب بها.',
@@ -506,6 +601,7 @@ export const ar: Strings = {
     uploading: 'جارٍ الرفع…',
     uploadError: 'تعذّر رفع الصورة. حاول مرة أخرى.',
     noAttachments: 'لم تتم إضافة أي صور بعد.',
+    submitHint: 'اختياري — أضف صورًا لمساعدة مسؤول الرعاية على فهم المشكلة.',
   },
   settings: {
     title: 'الإعدادات',
@@ -599,6 +695,29 @@ export const bn: Strings = {
     reportIssue: 'সমস্যা রিপোর্ট করুন',
     refreshHint: 'রিফ্রেশ করতে নিচে টানুন।',
   },
+  dashboard: {
+    title: 'ড্যাশবোর্ড',
+    greeting: 'ফিরে আসার জন্য স্বাগতম',
+    overview: 'সংক্ষিপ্ত বিবরণ',
+    totalCases: 'মোট মামলা',
+    openCases: 'চলমান',
+    resolvedCases: 'সমাধান হয়েছে',
+    recentCases: 'সাম্প্রতিক মামলা',
+    viewAll: 'সব দেখুন',
+    colRef: 'রেফারেন্স নম্বর',
+    colCategory: 'ক্যাটাগরি',
+    colStatus: 'অবস্থা',
+    colDate: 'তারিখ',
+    reportIssue: 'সমস্যা রিপোর্ট করুন',
+    emptyState: 'আপনি এখনও কিছু রিপোর্ট করেননি।',
+    feedbackTitle: 'মতামত',
+    feedbackQuestion: 'আপনার অভিজ্ঞতা কেমন ছিল?',
+    feedbackWasClosedOn: 'বন্ধ হয়েছে',
+    moodVeryHappy: 'খুব খুশি',
+    moodHappy: 'খুশি',
+    moodOk: 'মোটামুটি',
+    moodSad: 'অসন্তুষ্ট',
+  },
   submit: {
     title: 'সমস্যা রিপোর্ট করুন',
     subtitle: 'আপনি যে ভাষায়ই লিখুন না কেন, আপনার ওয়েলফেয়ার অফিসার এটি ইংরেজিতে দেখবেন।',
@@ -642,6 +761,7 @@ export const bn: Strings = {
     uploading: 'আপলোড হচ্ছে…',
     uploadError: 'ছবি আপলোড করা যায়নি। আবার চেষ্টা করুন।',
     noAttachments: 'এখনও কোনো ছবি যোগ করা হয়নি।',
+    submitHint: 'ঐচ্ছিক — আপনার ওয়েলফেয়ার অফিসারকে সমস্যা বুঝতে সাহায্য করতে ছবি যোগ করুন।',
   },
   settings: {
     title: 'সেটিংস',
@@ -735,6 +855,29 @@ export const hi: Strings = {
     reportIssue: 'समस्या रिपोर्ट करें',
     refreshHint: 'रिफ्रेश करने के लिए नीचे खींचें।',
   },
+  dashboard: {
+    title: 'डैशबोर्ड',
+    greeting: 'वापसी पर स्वागत है',
+    overview: 'सिंहावलोकन',
+    totalCases: 'कुल मामले',
+    openCases: 'जारी',
+    resolvedCases: 'सुलझाए गए',
+    recentCases: 'हाल के मामले',
+    viewAll: 'सभी देखें',
+    colRef: 'संदर्भ संख्या',
+    colCategory: 'श्रेणी',
+    colStatus: 'स्थिति',
+    colDate: 'तारीख़',
+    reportIssue: 'समस्या दर्ज करें',
+    emptyState: 'आपने अभी तक कुछ भी रिपोर्ट नहीं किया है।',
+    feedbackTitle: 'प्रतिक्रिया',
+    feedbackQuestion: 'आपका अनुभव कैसा रहा?',
+    feedbackWasClosedOn: 'को बंद किया गया',
+    moodVeryHappy: 'बहुत खुश',
+    moodHappy: 'खुश',
+    moodOk: 'ठीक-ठाक',
+    moodSad: 'नाखुश',
+  },
   submit: {
     title: 'समस्या रिपोर्ट करें',
     subtitle: 'आप जिस भी भाषा में लिखें, आपके वेलफेयर अधिकारी को यह अंग्रेज़ी में दिखेगा।',
@@ -778,6 +921,7 @@ export const hi: Strings = {
     uploading: 'अपलोड हो रहा है…',
     uploadError: 'फ़ोटो अपलोड नहीं हो सका। फिर कोशिश करें।',
     noAttachments: 'अभी तक कोई फ़ोटो नहीं जोड़ी गई।',
+    submitHint: 'वैकल्पिक — अपने वेलफेयर ऑफिसर को समस्या समझने में मदद के लिए फ़ोटो जोड़ें।',
   },
   settings: {
     title: 'सेटिंग्स',
@@ -871,6 +1015,29 @@ export const ne: Strings = {
     reportIssue: 'समस्या रिपोर्ट गर्नुहोस्',
     refreshHint: 'रिफ्रेश गर्न तल तान्नुहोस्।',
   },
+  dashboard: {
+    title: 'ड्यासबोर्ड',
+    greeting: 'फेरि स्वागत छ',
+    overview: 'सिंहावलोकन',
+    totalCases: 'जम्मा मामिलाहरू',
+    openCases: 'जारी',
+    resolvedCases: 'समाधान भयो',
+    recentCases: 'भर्खरका मामिलाहरू',
+    viewAll: 'सबै हेर्नुहोस्',
+    colRef: 'सन्दर्भ नम्बर',
+    colCategory: 'श्रेणी',
+    colStatus: 'स्थिति',
+    colDate: 'मिति',
+    reportIssue: 'समस्या रिपोर्ट गर्नुहोस्',
+    emptyState: 'तपाईंले अहिलेसम्म केही रिपोर्ट गर्नुभएको छैन।',
+    feedbackTitle: 'प्रतिक्रिया',
+    feedbackQuestion: 'तपाईंको अनुभव कस्तो थियो?',
+    feedbackWasClosedOn: 'बन्द गरियो',
+    moodVeryHappy: 'धेरै खुसी',
+    moodHappy: 'खुसी',
+    moodOk: 'ठिकै',
+    moodSad: 'असन्तुष्ट',
+  },
   submit: {
     title: 'समस्या रिपोर्ट गर्नुहोस्',
     subtitle: 'तपाईंले जुनसुकै भाषामा लेख्नुभए पनि, तपाईंको वेलफेयर अधिकारीले यो अंग्रेजीमा देख्नुहुनेछ।',
@@ -914,6 +1081,7 @@ export const ne: Strings = {
     uploading: 'अपलोड हुँदैछ…',
     uploadError: 'फोटो अपलोड हुन सकेन। फेरि प्रयास गर्नुहोस्।',
     noAttachments: 'अहिलेसम्म कुनै फोटो थपिएको छैन।',
+    submitHint: 'वैकल्पिक — तपाईंको वेलफेयर अफिसरलाई समस्या बुझ्न मद्दत गर्न फोटोहरू थप्नुहोस्।',
   },
   settings: {
     title: 'सेटिङहरू',
@@ -1007,6 +1175,29 @@ export const tl: Strings = {
     reportIssue: 'Mag-report ng isyu',
     refreshHint: 'Hilahin pababa para i-refresh.',
   },
+  dashboard: {
+    title: 'Dashboard',
+    greeting: 'Maligayang pagbabalik',
+    overview: 'Pangkalahatang-ideya',
+    totalCases: 'Kabuuang mga kaso',
+    openCases: 'Kasalukuyan',
+    resolvedCases: 'Naresolba',
+    recentCases: 'Kamakailang mga kaso',
+    viewAll: 'Tingnan lahat',
+    colRef: 'Reference',
+    colCategory: 'Kategorya',
+    colStatus: 'Katayuan',
+    colDate: 'Petsa',
+    reportIssue: 'Mag-ulat ng isyu',
+    emptyState: 'Wala ka pang naiuulat.',
+    feedbackTitle: 'Puna',
+    feedbackQuestion: 'Kumusta ang iyong karanasan?',
+    feedbackWasClosedOn: 'isinara noong',
+    moodVeryHappy: 'Sobrang Saya',
+    moodHappy: 'Masaya',
+    moodOk: 'Okay Lang',
+    moodSad: 'Malungkot',
+  },
   submit: {
     title: 'Mag-report ng isyu',
     subtitle: 'Anumang wika ang gamitin mo, makikita ito ng inyong Welfare Officer sa Ingles.',
@@ -1050,6 +1241,7 @@ export const tl: Strings = {
     uploading: 'Ina-upload…',
     uploadError: 'Hindi ma-upload ang larawan. Subukan muli.',
     noAttachments: 'Wala pang idinagdag na larawan.',
+    submitHint: 'Opsyonal — magdagdag ng mga larawan para matulungan ang iyong Welfare Officer na maintindihan ang isyu.',
   },
   settings: {
     title: 'Mga Setting',
@@ -1143,6 +1335,29 @@ export const zh: Strings = {
     reportIssue: '提交问题',
     refreshHint: '下拉刷新。',
   },
+  dashboard: {
+    title: '仪表板',
+    greeting: '欢迎回来',
+    overview: '概览',
+    totalCases: '总案件数',
+    openCases: '处理中',
+    resolvedCases: '已解决',
+    recentCases: '最近案件',
+    viewAll: '查看全部',
+    colRef: '编号',
+    colCategory: '类别',
+    colStatus: '状态',
+    colDate: '日期',
+    reportIssue: '报告问题',
+    emptyState: '您还没有提交任何报告。',
+    feedbackTitle: '反馈',
+    feedbackQuestion: '您的体验如何?',
+    feedbackWasClosedOn: '关闭于',
+    moodVeryHappy: '非常满意',
+    moodHappy: '满意',
+    moodOk: '一般',
+    moodSad: '不满意',
+  },
   submit: {
     title: '提交问题',
     subtitle: '无论您使用哪种语言书写，您的福利官员都会看到英文版本。',
@@ -1186,6 +1401,7 @@ export const zh: Strings = {
     uploading: '上传中…',
     uploadError: '照片上传失败，请重试。',
     noAttachments: '尚未添加任何照片。',
+    submitHint: '可选 — 添加照片以帮助您的福利官员了解问题。',
   },
   settings: {
     title: '设置',
