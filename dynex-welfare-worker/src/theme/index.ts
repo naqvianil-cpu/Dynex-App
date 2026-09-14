@@ -4,7 +4,10 @@
 export const colors = {
   brand: '#00033A',
   brandDark: '#000226',
-  accent: '#4252B1',
+  // Official brand "Royal Blue" per the DYNEX brand guideline swatch
+  // (HEX #4052B0 / RGB 64,82,176) -- also used as the Dashboard hero
+  // banner's background.
+  accent: '#4052B0',
   // Off-white used behind the big "X" watermark on the Login screen —
   // distinct from the app's general `bg` so that screen reads as a
   // deliberate brand moment rather than the default neutral background.
